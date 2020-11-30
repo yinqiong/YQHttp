@@ -1,0 +1,6 @@
+framework module YQHttp {
+  umbrella header "YQHttp-umbrella.h"
+
+  export *
+  module * { export * }
+}

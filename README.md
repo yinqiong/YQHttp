@@ -11,6 +11,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+```Object-C
+[[YQHttp.request(request).response(response).POST sucess:^(id  _Nonnull result) {
+
+    // 200 处理
+    // 如果201 处理也可以再自定义 201 的链式
+        
+}] error:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error) {
+    // 错误处理
+        
+}];
+```
+
 ## Installation
 
 YQHttp is available through [CocoaPods](https://cocoapods.org). To install

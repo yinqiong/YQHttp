@@ -1,0 +1,27 @@
+{
+  "name": "YQHttp",
+  "version": "0.1.0",
+  "summary": "A short description of YQHttp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yinqiong/YQHttp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yinqiong": "yinqiong04@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yinqiong/YQHttp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YQHttp/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
