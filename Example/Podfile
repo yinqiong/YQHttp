@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YQHttp_Example' do
+  pod 'YQHttp', :path => '../'
+
+  target 'YQHttp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
